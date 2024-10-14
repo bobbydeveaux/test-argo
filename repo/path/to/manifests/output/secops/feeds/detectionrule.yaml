@@ -2,7 +2,7 @@ apiVersion: secops.vodafone.com/v1
 kind: GoogleDetectionRule
 metadata:
   name: example-detection-rule
-  namespace: <class 'jinja2.utils.Namespace'>
+  namespace: google_secops
 spec:
   description: "This is an example Google Detection Rule"
   severity: "MEDIUM"
