@@ -12,7 +12,7 @@ spec:
     logQuery: "severity>=WARNING"
   conditions:
     - field: "jsonPayload.message"
-      operator: "CONTAINS"
+      operator: "CONTAINZZZ"
       value: "suspicious activity"
   actions:
     - type: "NOTIFY"
